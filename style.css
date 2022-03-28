@@ -1,0 +1,126 @@
+.mailing{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.navbar{
+  display: flex;
+  align-items: right;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left:8%;
+  padding-right:8%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+.logo{
+  color:aqua;
+  font-size:35px;
+  letter-spacing: 1px;
+  cursor:pointer;
+}
+span{
+  color:black
+}
+.navbar{
+  list-style-type: none;
+  display:inline-block;
+  padding: 10px 25px;
+}
+.icons{
+  display: flex;
+  display: inline-block;
+}
+.phine{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.img{
+  width: 100%;
+}
+.phine .img {
+  margin-bottom: 20rem;
+}
+.head{
+  margin-top:12rem;
+}
+.section1{
+margin-top: -4rem;
+}
+.nav {
+  background-color: #222;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav .containered {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 7px 15px;
+  transition: all 0.3s ease-in-out;
+}
+.nav.active {
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.nav.active a {
+  color: #000;
+}
+
+.nav.active .container {
+  padding: 10px 0;
+}
+
+.nav a.current,
+.nav a:hover {
+  color: #c0392b;
+  font-weight: bold;
+}
+.list{
+  margin-left: 8rem;
+}
+.icons{
+  color: white;
+position: absolute;
+right: 5%;
+
+}
+.icons i{
+  gap: 1rem;
+  margin: 0 1rem;
+}
+.style{
+justify-content: center;
+gap: 7rem;
+}
+.shop{
+position: absolute;
+margin-top: -40%;
+}
+.kicks{
+pointer-events: 12rem;
+}
+
+.footer{
+  align-items: baseline;
+  padding: auto;
+  word-spacing: normal;
+}
